@@ -2,9 +2,9 @@ name: Build
 
 on:
   pull_request:
-    branches: [ development, dev-1655-test-action]
-  push:
     branches: [ development ]
+  push:
+    branches: [ development, dev-1655-test-action ]
 
 jobs:
   run-checks-tests:
